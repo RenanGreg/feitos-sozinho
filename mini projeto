@@ -1,0 +1,48 @@
+nome = input('Digite seu nome:')
+idade = int(input('Digite sua idade:'))
+salario = int(input('Digite seu salario maior que zero:'))
+sexo = input('Digite seu sexo:')
+estadocivi = input('Digite seu estado civil:')
+
+if nome == str:
+  print('Entrada validada')
+
+else:
+  print('Entrada invalida')
+
+if idade >= 150:
+  print('validada')
+
+else:
+  print('invalida')
+
+if salario >= 1000:
+  print('Entrada com sucesso')
+
+else:
+  print('Entrada invalida')
+
+if sexo == 'feminino' or 'Masculino':
+  print('Entrada com sucesso')
+
+else:
+ print('Entradada invalida')
+
+if estadocivi == 'solteiro':
+  print('Entradada com sucesso')
+
+elif estadocivi == 'casado':
+  print('Entradada com sucesso')
+
+elif estadocivi == 'divorciado':
+ print('Entradada valida')
+
+elif estadocivi == 'viuvo':
+ print('Entradada valida')
+
+else:
+  print('Entradada invalida')
+
+print('Ola {}, sua idade é de {} anos, seu salario de {} reais, seu sexo {} com seu Estado Civil de {}'.format(nome, idade, salario, sexo, estadocivi))
+print('fim')
+
